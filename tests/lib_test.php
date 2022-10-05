@@ -39,7 +39,7 @@ require_once($CFG->dirroot . '/mod/qcreate/tests/base_test.php');
  */
 class mod_qcreate_lib_testcase extends mod_qcreate_base_testcase {
 
-    protected function setUp() {
+    protected function setUp() :void {
         parent::setUp();
 
         // Add additional default data.
